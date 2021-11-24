@@ -1,6 +1,10 @@
-import ReactDOM from 'react-dom';
+import * as ReactDOM from 'react-dom';
 
-function main() {}
+function main() {
+  let app = document.getElementById('app');
+
+  console.log(app);
+}
 
 if (module.hot) {
   module.hot.accept('./app.tsx', () => main());
